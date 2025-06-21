@@ -12,7 +12,7 @@ public class SimpleCalculator {
             display.setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 24));
             frame.add(display, java.awt.BorderLayout.NORTH);
 
-            // Add a "C" (clear) button at the top of the buttons
+            
             javax.swing.JButton clearBtn = new javax.swing.JButton("C");
             clearBtn.setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 18));
             clearBtn.setFocusPainted(false);
@@ -28,16 +28,14 @@ public class SimpleCalculator {
                 ".", "0", "=", "+"
             };
 
-            // Panel for clear button and buttons grid
             javax.swing.JPanel centerPanel = new javax.swing.JPanel();
             centerPanel.setLayout(new java.awt.BorderLayout(5, 5));
 
-            // Clear button panel
+            
             javax.swing.JPanel clearPanel = new javax.swing.JPanel(new java.awt.BorderLayout());
             clearPanel.add(clearBtn, java.awt.BorderLayout.CENTER);
             centerPanel.add(clearPanel, java.awt.BorderLayout.NORTH);
 
-            // Buttons grid
             javax.swing.JPanel panel = new javax.swing.JPanel();
             panel.setLayout(new java.awt.GridLayout(4, 4, 5, 5));
 
