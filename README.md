@@ -62,6 +62,6 @@ calculator-using-java/
 **Jayasri Cheekatla**
 Feel free to connect or collaborate!
 
-#📃 License
+📃 License
 
 This project is open-source and available for learning, improvement, and sharing.
